@@ -1,15 +1,3 @@
-{
-  "mcpServers": {
-    "server-name": {
-      "command": "python3",
-      "args": ["/absolute/path/to/your/server.py"],
-      "env": {
-        "API_KEY": "your_key_here"
-      }
-    }
-  }
-}
-
 
 {
   "mcpServers": {
@@ -29,7 +17,5 @@
 
 
 
-
-pip install -r requirements.txt
 playwright install
-python file_system_reader.py
+pip install -r requirements.txt
